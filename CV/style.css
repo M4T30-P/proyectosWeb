@@ -1,13 +1,23 @@
 .contenedor {
     background-color: aqua;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 .imagen {
     margin: auto 38%;
 }
 .texto {
-    color: blue;
+    color: black;
 }
-
 .titulo {
     text-align: center;
+}
+body{
+    background: linear-gradient(to bottom, blue, white);
+}
+p{
+    column-count: 2;
+    column-gap: 5%;
+    padding: 1rem;
 }
